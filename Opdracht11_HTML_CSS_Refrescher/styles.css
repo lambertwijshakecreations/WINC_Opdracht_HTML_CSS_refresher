@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.box {
+  width: 500px;
+  display: grid;
+  grid-template-rows: 100px 80px 90px;
+  grid-template-columns: 400px 100px;
+  border: 2px solid #9a9a9a;
+  border-radius: 0.5em;
+}
+
+.name {
+  padding-left: 20px;
+  line-height: 15px;
+}
+.name h1,
+.text {
+  font-family: "Mukta", sans-serif;
+}
+
+.name h2 {
+  font-family: "Roboto", sans-serif;
+  color: #9a9a9a;
+  font-weight: lighter;
+}
+
+.foto img {
+  width: 65px;
+  margin: 15px;
+}
+
+.text {
+  grid-column: 1/-1;
+}
+
+.text p {
+  font-size: 1.5em;
+  margin: 0 0 auto 20px;
+  line-height: 1.7rem;
+}
+
+.text bold {
+  font-weight: bolder;
+}
+
+.choice {
+  grid-column: 1/-1;
+  border-top: 1px solid #9a9a9a;
+}
+
+.choice ul {
+  margin: 12px 20px;
+  padding: 10px;
+  /* text-align: center;*/
+}
+
+.choice ul li {
+  display: inline;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Mukta", sans-serif;
+  align-content: center;
+}
+
+.Ap {
+  color: green;
+  border: 3px solid green;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  padding: 6px 66px;
+  margin-right: -6px;
+}
+
+.De {
+  color: red;
+  border: 3px solid red;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  padding: 6px 66px;
+  margin: 0;
+}
